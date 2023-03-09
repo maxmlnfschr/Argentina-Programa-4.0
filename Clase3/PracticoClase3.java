@@ -95,19 +95,26 @@ public class PracticoClase3 {
         // Genere una clase que tenga los métodos para realizarla codificación
         // y decodificación de un string, dado un número de desplazamiento.
 
-        int numeroDesplazamiento = 2;
+        int numeroDesplazamiento = 1;
         String nuevaCadena = "";
 
-        String cadena = "hola que tal";
+        String cadena = "hola que tal z";
         String abecedario = " abcdefghijklmnñopqrstuvwxyz";
+
 
         for (int i = 0; i < cadena.length(); i++) {
             for (int j = 0; j < abecedario.length(); ++j) {
                 if (cadena.charAt(i) == abecedario.charAt(j)) {
-                    nuevaCadena = cadena.replace(cadena.charAt(i), abecedario.charAt(j+numeroDesplazamiento));
+                    if (cadena.charAt(i) == 'z') {
+                        nuevaCadena = cadena.replace(cadena.charAt(i), abecedario.charAt(numeroDesplazamiento));
+                    } else {
+                        nuevaCadena = cadena.replace(cadena.charAt(i), abecedario.charAt(j + numeroDesplazamiento));
+                    }
                 }
             }
-        System.out.print(nuevaCadena.charAt(i));
+
+            System.out.print(nuevaCadena.charAt(i));
+
         }
     }
 }
