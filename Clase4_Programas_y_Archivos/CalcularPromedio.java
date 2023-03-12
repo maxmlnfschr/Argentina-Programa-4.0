@@ -1,4 +1,4 @@
-package Clase4;
+package Clase4_Programas_y_Archivos;
 
 public class CalcularPromedio {
     public static void main(String[] args) throws Exception {

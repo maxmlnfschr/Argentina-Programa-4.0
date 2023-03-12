@@ -1,4 +1,4 @@
-package Clase3;
+package Clase3_Arrays_y_Strings;
 
 public class EjercicioString {
     public static void main(String[] args) throws Exception {

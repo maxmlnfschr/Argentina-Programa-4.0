@@ -1,4 +1,4 @@
-package Clase3;
+package Clase3_Arrays_y_Strings;
 
 import java.util.Arrays;
 
@@ -101,7 +101,6 @@ public class PracticoClase3 {
         String cadena = "hola que tal z";
         String abecedario = " abcdefghijklmnñopqrstuvwxyz";
 
-
         for (int i = 0; i < cadena.length(); i++) {
             for (int j = 0; j < abecedario.length(); ++j) {
                 if (cadena.charAt(i) == abecedario.charAt(j)) {
@@ -112,9 +111,7 @@ public class PracticoClase3 {
                     }
                 }
             }
-
-            System.out.print(nuevaCadena.charAt(i));
-
+        System.out.print(nuevaCadena.charAt(i));
         }
     }
 }
