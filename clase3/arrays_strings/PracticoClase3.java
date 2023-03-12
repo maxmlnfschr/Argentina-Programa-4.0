@@ -1,4 +1,4 @@
-package Clase3_Arrays_y_Strings;
+package clase3.arrays_strings;
 
 import java.util.Arrays;
 

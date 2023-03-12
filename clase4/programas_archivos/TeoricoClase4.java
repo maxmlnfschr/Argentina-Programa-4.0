@@ -1,4 +1,4 @@
-package Clase4_Programas_y_Archivos;
+package clase4.programas_archivos;
 
 public class TeoricoClase4 {
     public static void main(String[] args) throws Exception {

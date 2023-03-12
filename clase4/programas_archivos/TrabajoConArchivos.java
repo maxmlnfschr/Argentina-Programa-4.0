@@ -1,4 +1,4 @@
-package Clase4_Programas_y_Archivos;
+package clase4.programas_archivos;
 
 import java.io.IOException;
 import java.nio.file.Files;

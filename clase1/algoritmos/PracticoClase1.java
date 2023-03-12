@@ -1,4 +1,4 @@
-package Clase1_Algoritmos;
+package clase1.algoritmos;
 
 public class PracticoClase1 {
     public static void main(String[] args) throws Exception {
